@@ -9,23 +9,24 @@ The following figure shows our **optical fiber network map**, where the routing 
 ![Optical Fiber Map](pics/map.gif)
 
 ## Link Distances
+![distances from each node](pics/routes.gif)
+The table below shows the fiber link distances between consecutive nodes, measured in meters, as used in the TSP-based optimization.
+Only the source category (`cat`), target category (`tcat`), and distance (`dist`) are shown.
 
-The table below shows the **fiber link distances between consecutive nodes**, measured in **meters**, as used in the TSP-based optimization.
-
-| From Node | To Node | Distance (m) |
-|----------:|--------:|-------------:|
-| 13 | 14 | 5763.508 |
-| 12 | 13 | 2203.682 |
-| 11 | 12 | 5790.194 |
-| 10 | 11 | 2983.870 |
-| 9 | 10 | 5294.950 |
-| 8 | 9 | 2260.073 |
-| 7 | 8 | 3112.522 |
-| 6 | 7 | 4741.211 |
-| 5 | 6 | 2238.856 |
-| 4 | 5 | 5130.240 |
-| 3 | 4 | 2541.672 |
-| 2 | 3 | 6891.062 |
-| 1 | 2 | 4224.861 |
-| 1 | 14 | 2561.903 |
+| cat | tcat | dist (m) |
+|----:|-----:|---------:|
+| 3  | 14 | 1183.093 |
+| 2  | 13 | 1067.060 |
+| 14 | 11 | 1534.768 |
+| 11 | 4  |  888.475 |
+| 1  | 10 |  559.327 |
+| 12 | 5  | 1422.181 |
+| 13 | 12 | 2203.682 |
+| 6  | 3  | 1905.076 |
+| 7  | 8  | 3112.522 |
+| 9  | 2  |  659.702 |
+| 10 | 6  |  732.377 |
+| 8  | 9  | 2260.073 |
+| 5  | 1  | 1236.146 |
+| 4  | 7  | 1855.785 |
 
