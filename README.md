@@ -29,4 +29,6 @@ Only the source category (`cat`), target category (`tcat`), and distance (`dist`
 | 8  | 9  | 2260.073 |
 | 5  | 1  | 1236.146 |
 | 4  | 7  | 1855.785 |
-
+## THANKS
+## NETWORK SPECS
+UP ON DESTANCES, CITY SIZE, WE SUGGEST FIBER STANDERD G657A, 288 CABLLE FOR FUTURE REVENUE (FIXED COST),  SFP LR 25G FOR 5G BACKHAUL REQUIRMENT
